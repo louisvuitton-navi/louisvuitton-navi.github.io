@@ -1,0 +1,718 @@
+div#nav{
+float : right; 
+width: 160px;
+margin-right: 8px;
+background-color : #421c19; 
+border: 1px solid #421c19;
+border-left:  2px solid #421c19;
+text-align: left;
+}
+
+#nav h3 { 
+font-size : 71%; 
+margin : 0 2px 3px 2px; 
+padding-left: 5px;
+display: block;
+background-color : #FCF4AC; 
+color : #421c19; 
+width : 150px; 
+height : 24px; 
+line-height : 24px;
+border-bottom: 1px solid #421c19;
+white-space: nowrap;
+} 
+
+#nav-title { 
+font-size : 71%;
+font-weight: bold ;
+margin : 0 2px 3px 2px; 
+padding-left: 5px;
+display: block;
+background-color : #FCF4AC; 
+color : #421c19; 
+width : 150px; 
+height : 24px; 
+line-height : 24px;
+border-bottom: 1px solid #421c19;
+white-space: nowrap;
+} 
+
+
+#nav-span { 
+margin : 0px 0 0 0; 
+padding : 0; 
+background-color : #421c19; 
+height : 15px; 
+} 
+#nav-span2 { 
+margin : 0px 0 0 0; 
+padding : 0; 
+background-color : #421c19; 
+height : 5px; 
+} 
+#story-img { 
+width : 156px; 
+height : 100px; 
+padding : 0; 
+margin : 1px; 
+background-image: url(../img/bass/story.jpg);
+} 
+
+
+div#nav ul {
+list-style: none;
+margin: 0px 4px;
+padding: 0;
+font-size : 70%; 
+font-weight : bold; 
+white-space: nowrap;
+background-color : #FDF273; 
+}
+
+#nav li {
+margin: 0;
+padding: 0;
+border-bottom: 1px solid #421c19;
+}
+
+div#nav ul li {
+list-style: none;
+border-bottom: 1px solid #421c19;
+margin: 0;
+padding: 0 0 0 0;
+}
+
+/*categoly*/
+div#nav ul li#categoly a {
+background: url(../img/side/bta.gif) no-repeat;/*通常時*/
+padding:13px 20px;
+margin: 0;
+display: block;
+width: 115px ; 
+height: 9px;
+color: #421C19;
+text-decoration: none;
+font-size : 11px; 
+}
+
+
+div#nav ul li#categoly a:hover {
+background: url(../img/side/btb.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 115px ; 
+}
+
+
+/*categoly*/
+div#nav ul li#categoly1 a {
+background: url(../img/side/bt01.gif) no-repeat;/*通常時*/
+padding:7px 22px;
+margin: 0;
+display: block;
+width: 110px ; 
+height: 11px;
+color: #421C19;
+text-decoration: none;
+font-size : 90%; 
+}
+
+
+div#nav ul li#categoly1 a:hover {
+background: url(../img/side/bt02.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 110px ; 
+}
+
+/*categoly2*/
+div#nav ul li#categoly2 a {
+background: url(../img/side/bt01.gif) no-repeat;/*通常時*/
+padding:7px 24px;
+margin: 0;
+display: block;
+width: 110px ; 
+height: 13px;
+color: #421C19;
+text-decoration: none;
+font-size : 90%; 
+}
+
+div#nav ul li#categoly2 a:hover {
+background: url(../img/side/bt02.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 110px ; 
+}
+
+/*01*/
+div#nav ul li#menu01 {
+margin: 0;
+padding: 0;
+border-bottom: 1px solid #421c19;
+}
+
+
+div#nav ul li#menu01 a {
+background: url(../img/side/lv-01sb.gif) no-repeat;/*通常時*/
+margin: 0;
+padding:5px 36px;
+display: block;
+width: 78px ; 
+height: 25px;
+color: #421C19;
+text-decoration: none;
+}
+
+div#nav ul li#menu01 a:hover {
+background: url(../img/side/lv-01sb2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 78px ; 
+}
+
+/*05*/
+div#nav ul li#menu05 a {
+background: url(../img/side/lv-05sb.gif) no-repeat;/*通常時*/
+padding:5px 36px;
+display: block;
+width: 78px ; 
+height: 25px;
+color: #421C19;
+text-decoration: none;
+}
+
+div#nav ul li#menu05 a:hover {
+background: url(../img/side/lv-05sb2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 78px ; 
+}
+
+/*05-02*/
+div#nav ul li#menu05-02 a {
+background: url(../img/side/lv-05-02sb.gif) no-repeat;/*通常時*/
+padding:5px 36px;
+display: block;
+width: 84px ; 
+height: 25px;
+color: #421C19;
+text-decoration: none;
+}
+
+div#nav ul li#menu05-02 a:hover {
+background: url(../img/side/lv-05-02sb2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 84px ; 
+}
+
+/*04*/
+div#nav ul li#menu04 a {
+background: url(../img/side/lv-04sb.gif) no-repeat;/*通常時*/
+padding:5px 36px;
+display: block;
+width: 78px ; 
+height: 25px;
+color: #421C19;
+text-decoration: none;
+}
+
+div#nav ul li#menu04 a:hover {
+background: url(../img/side/lv-04sb2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 78px ; 
+}
+
+/*06*/
+div#nav ul li#menu06 a {
+background: url(../img/side/lv-06sb.gif) no-repeat;/*通常時*/
+padding:5px 36px;
+display: block;
+width: 78px ; 
+height: 25px;
+color: #421C19;
+text-decoration: none;
+}
+
+div#nav ul li#menu06 a:hover {
+background: url(../img/side/lv-06sb2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 78px ; 
+}
+/*09*/
+div#nav ul li#menu09 a {
+background: url(../img/side/lv-09sb.gif) no-repeat;/*通常時*/
+padding:5px 36px;
+display: block;
+width: 78px ; 
+height: 25px;
+color: #421C19;
+text-decoration: none;
+}
+
+div#nav ul li#menu09 a:hover {
+background: url(../img/side/lv-09sb2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 78px ; 
+}
+/*10*/
+div#nav ul li#menu10 a {
+background: url(../img/side/lv-10sb.gif) no-repeat;/*通常時*/
+padding:5px 36px;
+display: block;
+width: 78px ; 
+height: 25px;
+color: #421C19;
+text-decoration: none;
+}
+
+div#nav ul li#menu10 a:hover {
+background: url(../img/side/lv-10sb2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 78px ; 
+}
+
+/*30*/
+div#nav ul li#menu30 a {
+background: url(../img/side/lv-30sb.gif) no-repeat;/*通常時*/
+padding:6px 36px;
+display: block;
+width: 104px ; 
+height: 23px;
+color: #421C19;
+text-decoration: none;
+font-size : 90%; 
+}
+
+div#nav ul li#menu30 a:hover {
+background: url(../img/side/lv-30sb2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 104px ; 
+}
+/*32*/
+div#nav ul li#menu32 a {
+background: url(../img/side/lv-32sb.gif) no-repeat;/*通常時*/
+padding:6px 36px;
+display: block;
+width: 110px ; 
+height: 23px;
+color: #421C19;
+text-decoration: none;
+font-size : 85%; 
+}
+
+div#nav ul li#menu32 a:hover {
+background: url(../img/side/lv-32sb2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 110px ; 
+}
+/*31*/
+div#nav ul li#menu31 a {
+background: url(../img/side/lv-31sb.gif) no-repeat;/*通常時*/
+padding:6px 36px;
+display: block;
+width: 106px ; 
+height: 23px;
+color: #421C19;
+text-decoration: none;
+font-size : 85%; 
+}
+
+div#nav ul li#menu31 a:hover {
+background: url(../img/side/lv-31sb2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 106px ; 
+}
+/*17*/
+div#nav ul li#menu17 a {
+background: url(../img/side/lv-17sb.gif) no-repeat;/*通常時*/
+padding:5px 36px;
+display: block;
+width: 100px ; 
+height: 23px;
+color: #421C19;
+text-decoration: none;
+}
+
+div#nav ul li#menu17 a:hover {
+background: url(../img/side/lv-17sb2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 100px ; 
+}
+/*33*/
+div#nav ul li#menu33 a {
+background: url(../img/side/lv-33sb.gif) no-repeat;/*通常時*/
+padding:5px 36px;
+display: block;
+width: 90px ; 
+height: 23px;
+color: #421C19;
+text-decoration: none;
+}
+
+div#nav ul li#menu33 a:hover {
+background: url(../img/side/lv-33sb2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 90px ; 
+}
+/*aa*/
+div#nav ul li#menu-aa a {
+background: url(../img/side/lv-sb-aa.gif) no-repeat;/*通常時*/
+padding:5px 40px;
+display: block;
+width: 90px ; 
+height: 23px;
+color: #421C19;
+text-decoration: none;
+}
+
+div#nav ul li#menu-aa a:hover {
+background: url(../img/side/lv-sb-aa2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 71px ; 
+}
+/*bb*/
+div#nav ul li#menu-bb a {
+background: url(../img/side/lv-sb-bb.gif) no-repeat;/*通常時*/
+padding:5px 40px;
+display: block;
+width: 90px ; 
+height: 23px;
+color: #421C19;
+text-decoration: none;
+}
+
+div#nav ul li#menu-bb a:hover {
+background: url(../img/side/lv-sb-bb2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 90px ; 
+}
+/*cc*/
+div#nav ul li#menu-cc a {
+background: url(../img/side/lv-sb-cc.gif) no-repeat;/*通常時*/
+padding:5px 40px;
+display: block;
+width: 100px ; 
+height: 23px;
+color: #421C19;
+text-decoration: none;
+}
+
+div#nav ul li#menu-cc a:hover {
+background: url(../img/side/lv-sb-cc2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 100px ; 
+}
+/*dd*/
+div#nav ul li#menu-dd a {
+background: url(../img/side/lv-sb-dd.gif) no-repeat;/*通常時*/
+padding:5px 39px;
+display: block;
+width: 110px ; 
+height: 23px;
+color: #421C19;
+text-decoration: none;
+font-size : 85%; 
+}
+
+div#nav ul li#menu-dd a:hover {
+background: url(../img/side/lv-sb-dd2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 110px ; 
+}
+/*ee*/
+div#nav ul li#menu-ee a {
+background: url(../img/side/lv-sb-ee.gif) no-repeat;/*通常時*/
+padding:5px 39px;
+display: block;
+width: 110px ; 
+height: 23px;
+color: #421C19;
+text-decoration: none;
+font-size : 85%; 
+}
+
+div#nav ul li#menu-ee a:hover {
+background: url(../img/side/lv-sb-ee2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 110px ; 
+}
+/*ss*/
+div#nav ul li#menu-ss a {
+background: url(../img/side/lv-sb-ss.gif) no-repeat;/*通常時*/
+padding:5px 40px;
+display: block;
+width: 110px ; 
+height: 23px;
+color: #421C19;
+text-decoration: none;
+font-size : 10px; 
+}
+
+div#nav ul li#menu-ss a:hover {
+background: url(../img/side/lv-sb-ss2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 71px ; 
+}
+/*kc*/
+div#nav ul li#menu-kc a {
+background: url(../img/side/lv-sb-kc.gif) no-repeat;/*通常時*/
+padding:5px 40px;
+display: block;
+width: 110px ; 
+height: 23px;
+color: #421C19;
+text-decoration: none;
+font-size : 10px; 
+}
+
+div#nav ul li#menu-kc a:hover {
+background: url(../img/side/lv-sb-kc2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 71px ; 
+}
+/*mbb*/
+div#nav ul li#menu-mbb a {
+background: url(../img/side/lv-sb-mbb.gif) no-repeat;/*通常時*/
+padding:5px 40px;
+display: block;
+width: 110px ; 
+height: 23px;
+color: #421C19;
+text-decoration: none;
+font-size : 10px; 
+}
+
+div#nav ul li#menu-mbb a:hover {
+background: url(../img/side/lv-sb-mbb2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 71px ; 
+}
+/*mss*/
+div#nav ul li#menu-mss a {
+background: url(../img/side/lv-sb-mss.gif) no-repeat;/*通常時*/
+padding:5px 40px;
+display: block;
+width: 110px ; 
+height: 23px;
+color: #421C19;
+text-decoration: none;
+font-size : 10px; 
+}
+
+div#nav ul li#menu-mss a:hover {
+background: url(../img/side/lv-sb-mss2.gif) no-repeat;/*カーソルオーバー時*/
+color: #660000;
+width: 71px ; 
+}
+
+/*  */
+
+#naviboton { 
+border : 1px; 
+margin: 0px;
+margin-bottom: 0px;
+padding : 2px; 
+border-top : 0; 
+border-bottom : 0; 
+font-size : 10px; 
+font-weight : bold; 
+height : 92px; 
+} 
+#naviboton a { 
+display : block; 
+border : 3px solid #f6f9ed; 
+height : 96px; 
+width : 148px; 
+background-color : #f6f9ed; 
+padding : 0px; 
+vertical-align : middle; 
+color : #b22222; 
+text-align : left; 
+} 
+#naviboton a:hover { 
+border : 3px solid #F7ED72; 
+background-color : #F7ED72; 
+color : #ffffff; 
+} 
+
+.clearfloat { 
+clear : both; 
+height : 0; 
+font-size : 1px; 
+line-height : 0; 
+} 
+
+
+/* 
+ */
+
+#srchBox
+{
+width:156px;
+_width:156px;
+margin-bottom:2px;
+padding-bottom: 0px;
+background-color:#FFFFFF;
+border-style:solid;
+border-width:1px;
+border-color:#EEEEEE;
+color:#000000;
+text-align:center;
+}
+#srchBox *
+{
+margin:0;
+padding:0;
+font-size:13px;
+*font-size:small;
+*font:x-small;
+}
+#srchBox a img
+{
+border:none;
+}
+#srchBox #srch
+{
+padding:6px;
+}
+#srchBox #srchInput
+{
+width:98%;
+_width:130px;
+}
+#srchBox #srchBtn
+{
+width:115px;
+}
+*html #srchBox #srchBtn
+{
+padding-top:2px;
+}
+*:first-child+html #srchBox #srchBtn
+{
+padding-top:2px;
+}
+#srchBox ul
+{
+margin-top:6px;
+margin-bottom:6px;
+text-align:left;
+}
+#srchBox li
+{
+list-style-type:none;
+display:block;
+}
+#srchBox li input
+{
+zoom:1;
+margin-right:2px;
+_margin:-4px 0 -4px -4px;
+vertical-align:middle;
+border:0;
+}
+*:+html #srchBox li input
+{
+margin:-4px 0 -4px -4px;
+}
+#srchBox #srchLogo
+{
+margin:2px 0px 0px 0;
+text-align:center;
+padding-bottom: 0px;
+}
+#srchBox #srchLogo a
+{
+color:#666666;
+text-decoration:none;
+font-size:85%;
+}
+#srchBox #srchLogo a:hover
+{
+text-decoration:underline;
+}
+
+/* 
+ */
+
+#srchBox
+{
+width:156px;
+_width:156px;
+margin-bottom:2px;
+padding-bottom: 0px;
+background-color:#FFFFFF;
+border-style:solid;
+border-width:1px;
+border-color:#EEEEEE;
+color:#000000;
+text-align:center;
+}
+#srchBox *
+{
+margin:0;
+padding:0;
+font-size:13px;
+*font-size:small;
+*font:x-small;
+}
+#srchBox a img
+{
+border:none;
+}
+#srchBox #srch
+{
+padding:6px;
+}
+#srchBox #srchInput
+{
+width:98%;
+_width:130px;
+}
+#srchBox #srchBtn
+{
+width:115px;
+}
+*html #srchBox #srchBtn
+{
+padding-top:2px;
+}
+*:first-child+html #srchBox #srchBtn
+{
+padding-top:2px;
+}
+#srchBox ul
+{
+margin-top:6px;
+margin-bottom:6px;
+text-align:left;
+}
+#srchBox li
+{
+list-style-type:none;
+display:block;
+}
+#srchBox li input
+{
+zoom:1;
+margin-right:2px;
+_margin:-4px 0 -4px -4px;
+vertical-align:middle;
+border:0;
+}
+*:+html #srchBox li input
+{
+margin:-4px 0 -4px -4px;
+}
+#srchBox #srchLogo
+{
+margin:2px 0px 0px 0;
+text-align:center;
+padding-bottom: 0px;
+}
+#srchBox #srchLogo a
+{
+color:#666666;
+text-decoration:none;
+font-size:85%;
+}
+#srchBox #srchLogo a:hover
+{
+text-decoration:underline;
+}
